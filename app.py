@@ -5,13 +5,13 @@ app = Flask(__name__)
 
 # list of images to show
 images = [
-"https://www.animatedimages.org/data/media/209/animated-cat-image-0072.gif",
-"https://www.animatedimages.org/data/media/209/animated-cat-image-0056.gif",
-"https://www.animatedimages.org/data/media/209/animated-cat-image-0394.gif",
-"https://www.animatedimages.org/data/media/209/animated-cat-image-0338.gif",
-"https://www.animatedimages.org/data/media/209/animated-cat-image-0058.gif",
-"https://www.animatedimages.org/data/media/209/animated-cat-image-0184.gif",
-"https://www.animatedimages.org/data/media/209/animated-cat-image-0459.gif"
+"https://www.animatedimages.org/data/media/50/animated-flower-image-0050.gif",
+"https://www.animatedimages.org/data/media/50/animated-flower-image-0051.gif",
+"https://www.animatedimages.org/data/media/50/animated-flower-image-0052.gif",
+"https://www.animatedimages.org/data/media/50/animated-flower-image-0053.gif",
+"https://www.animatedimages.org/data/media/50/animated-flower-image-0054.gif",
+"https://www.animatedimages.org/data/media/50/animated-flower-image-0055.gif",
+"https://www.animatedimages.org/data/media/50/animated-flower-image-0056.gif"
 ]
 
 @app.route('/')
