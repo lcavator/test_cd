@@ -3,7 +3,7 @@ import random
 
 app = Flask(__name__)
 
-# list of images
+# list of images to show
 images = [
 "https://www.animatedimages.org/data/media/209/animated-cat-image-0072.gif",
 "https://www.animatedimages.org/data/media/209/animated-cat-image-0056.gif",
@@ -22,3 +22,4 @@ def index():
 
 if __name__ == "__main__":
          app.run(host="0.0.0.0")
+
